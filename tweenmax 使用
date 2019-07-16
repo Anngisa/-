@@ -40,6 +40,7 @@
       height: 250px;
       overflow: auto;
       opacity: 0;
+      background: red;
     }
     footer {
       background: #000;
@@ -63,152 +64,15 @@
 </header>
 <main>
   <p class="twee  twee1">
-    /* property name | duration | timing function | delay */
-    transition: margin-right 4s ease-in-out 1s;
 
-    /* Apply to 2 properties */
-    transition: margin-right 4s, color 1s;
-
-    /* Apply to all changed properties */
-    transition: all 0.5s ease-out;
-
-    /* Global values */
-    transition: inherit;
-    transition: initial;
-    transition: unset;
-    /* property name | duration | timing function | delay */
-    transition: margin-right 4s ease-in-out 1s;
-
-    /* Apply to 2 properties */
-    transition: margin-right 4s, color 1s;
-
-    /* Apply to all changed properties */
-    transition: all 0.5s ease-out;
-
-    /* Global values */
-    transition: inherit;
-    transition: initial;
-    transition: unset;
   </p>
   <p class="twee twee2">
-    /* property name | duration | timing function | delay */
-    transition: margin-right 4s ease-in-out 1s;
 
-    /* Apply to 2 properties */
-    transition: margin-right 4s, color 1s;
-
-    /* Apply to all changed properties */
-    transition: all 0.5s ease-out;
-
-    /* Global values */
-    transition: inherit;
-    transition: initial;
-    transition: unset;
-
-    /* property name | duration | timing function | delay */
-    transition: margin-right 4s ease-in-out 1s;
-
-    /* Apply to 2 properties */
-    transition: margin-right 4s, color 1s;
-
-    /* Apply to all changed properties */
-    transition: all 0.5s ease-out;
-
-    /* Global values */
-    transition: inherit;
-    transition: initial;
-    transition: unset;
-    /* property name | duration | timing function | delay */
-    transition: margin-right 4s ease-in-out 1s;
-
-    /* Apply to 2 properties */
-    transition: margin-right 4s, color 1s;
-
-    /* Apply to all changed properties */
-    transition: all 0.5s ease-out;
-
-    /* Global values */
-    transition: inherit;
-    transition: initial;
-    transition: unset;
-    /* property name | duration | timing function | delay */
-    transition: margin-right 4s ease-in-out 1s;
-
-    /* Apply to 2 properties */
-    transition: margin-right 4s, color 1s;
-
-    /* Apply to all changed properties */
-    transition: all 0.5s ease-out;
-
-    /* Global values */
-    transition: inherit;
-    transition: initial;
-    transition: unset;
-    /* property name | duration | timing function | delay */
-    transition: margin-right 4s ease-in-out 1s;
-
-    /* Apply to 2 properties */
-    transition: margin-right 4s, color 1s;
-
-    /* Apply to all changed properties */
-    transition: all 0.5s ease-out;
-
-    /* Global values */
-    transition: inherit;
-    transition: initial;
-    transition: unset;
-
-    /* property name | duration | timing function | delay */
-    transition: margin-right 4s ease-in-out 1s;
-
-    /* Apply to 2 properties */
-    transition: margin-right 4s, color 1s;
-
-    /* Apply to all changed properties */
-    transition: all 0.5s ease-out;
-
-    /* Global values */
-    transition: inherit;
-    transition: initial;
-    transition: unset;
-    /* property name | duration | timing function | delay */
-    transition: margin-right 4s ease-in-out 1s;
-
-    ase-out;
-
-    /* Global values */
-    transition: inherit;
-    transition: initial;
-    transition: unset;
 
   <p class="twee twee3">
-    /* property name | duration | timing function | delay */
-    transition: margin-right 4s ease-in-out 1s;
-
-    /* Apply to 2 properties */
-    transition: margin-right 4s, color 1s;
-
-    /* Apply to all changed properties */
-    transition: all 0.5s ease-out;
-
-    /* Global values */
-    transition: inherit;
-    transition: initial;
-    transition: unset;
-    /* property name | duration | timing function | delay */
-    transition: margin-right 4s ease-in-out 1s;
-
-
-
-    /* Apply to all changed properties */
-    transition: all 0.5s ease-out;
-
-    /* Global values */
-    transition: inherit;
-    transition: initial;
-    transition: unset;
+    
   </p>
-  
+
 
 </main>
 
