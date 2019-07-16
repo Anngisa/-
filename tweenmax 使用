@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    /*第一种实现方法*/
+
+    /* main {
+         min-height: calc(100vh - 2.9em - 8em);
+         box-sizing: border-box;
+     }
+     footer {
+         background: #000;
+         color: #fff;
+     }*/
+    /*第二种实现方法*/
+    body {
+      display: flex;
+      flex-flow: column;
+      min-height: 100vh;
+    }
+    main {
+      flex: 1;
+      position: relative;
+
+    }
+    main p {
+      margin: 50vh auto 0 auto;
+      transform: translateY(-50%);
+      background-size: 100%;
+      width: 400px;
+      height: 250px;
+      overflow: auto;
+      opacity: 0;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+
+
+    }
+    li:nth-child(3n+4) {
+      background: pink;
+    }
+    .animated {
+      opacity: 1;
+    }
+  </style>
+
+
+</head>
+<body>
+<header>
+  <h1>site name</h1>
+</header>
+<main>
+  <p class="twee  twee1">
+    /* property name | duration | timing function | delay */
+    transition: margin-right 4s ease-in-out 1s;
+
+    /* Apply to 2 properties */
+    transition: margin-right 4s, color 1s;
+
+    /* Apply to all changed properties */
+    transition: all 0.5s ease-out;
+
+    /* Global values */
+    transition: inherit;
+    transition: initial;
+    transition: unset;
+    /* property name | duration | timing function | delay */
+    transition: margin-right 4s ease-in-out 1s;
+
+    /* Apply to 2 properties */
+    transition: margin-right 4s, color 1s;
+
+    /* Apply to all changed properties */
+    transition: all 0.5s ease-out;
+
+    /* Global values */
+    transition: inherit;
+    transition: initial;
+    transition: unset;
+  </p>
+  <p class="twee twee2">
+    /* property name | duration | timing function | delay */
+    transition: margin-right 4s ease-in-out 1s;
+
+    /* Apply to 2 properties */
+    transition: margin-right 4s, color 1s;
+
+    /* Apply to all changed properties */
+    transition: all 0.5s ease-out;
+
+    /* Global values */
+    transition: inherit;
+    transition: initial;
+    transition: unset;
+
+    /* property name | duration | timing function | delay */
+    transition: margin-right 4s ease-in-out 1s;
+
+    /* Apply to 2 properties */
+    transition: margin-right 4s, color 1s;
+
+    /* Apply to all changed properties */
+    transition: all 0.5s ease-out;
+
+    /* Global values */
+    transition: inherit;
+    transition: initial;
+    transition: unset;
+    /* property name | duration | timing function | delay */
+    transition: margin-right 4s ease-in-out 1s;
+
+    /* Apply to 2 properties */
+    transition: margin-right 4s, color 1s;
+
+    /* Apply to all changed properties */
+    transition: all 0.5s ease-out;
+
+    /* Global values */
+    transition: inherit;
+    transition: initial;
+    transition: unset;
+    /* property name | duration | timing function | delay */
+    transition: margin-right 4s ease-in-out 1s;
+
+    /* Apply to 2 properties */
+    transition: margin-right 4s, color 1s;
+
+    /* Apply to all changed properties */
+    transition: all 0.5s ease-out;
+
+    /* Global values */
+    transition: inherit;
+    transition: initial;
+    transition: unset;
+    /* property name | duration | timing function | delay */
+    transition: margin-right 4s ease-in-out 1s;
+
+    /* Apply to 2 properties */
+    transition: margin-right 4s, color 1s;
+
+    /* Apply to all changed properties */
+    transition: all 0.5s ease-out;
+
+    /* Global values */
+    transition: inherit;
+    transition: initial;
+    transition: unset;
+
+    /* property name | duration | timing function | delay */
+    transition: margin-right 4s ease-in-out 1s;
+
+    /* Apply to 2 properties */
+    transition: margin-right 4s, color 1s;
+
+    /* Apply to all changed properties */
+    transition: all 0.5s ease-out;
+
+    /* Global values */
+    transition: inherit;
+    transition: initial;
+    transition: unset;
+    /* property name | duration | timing function | delay */
+    transition: margin-right 4s ease-in-out 1s;
+
+    ase-out;
+
+    /* Global values */
+    transition: inherit;
+    transition: initial;
+    transition: unset;
+
+  <p class="twee twee3">
+    /* property name | duration | timing function | delay */
+    transition: margin-right 4s ease-in-out 1s;
+
+    /* Apply to 2 properties */
+    transition: margin-right 4s, color 1s;
+
+    /* Apply to all changed properties */
+    transition: all 0.5s ease-out;
+
+    /* Global values */
+    transition: inherit;
+    transition: initial;
+    transition: unset;
+    /* property name | duration | timing function | delay */
+    transition: margin-right 4s ease-in-out 1s;
+
+
+
+    /* Apply to all changed properties */
+    transition: all 0.5s ease-out;
+
+    /* Global values */
+    transition: inherit;
+    transition: initial;
+    transition: unset;
+  </p>
+  
+
+</main>
+
+
+<footer>
+  <p>© 2015 No rights reserved.</p>
+  <p>Made with ♥ by an anonymous pastafarian.著作权归作者所有。
+  </p>
+</footer>
+
+<script charset="utf-8" src="https://nie.res.netease.com/comm/js/jquery(mixNIE).1.11.js"></script>
+<script src="https://nie.res.netease.com/comm/js/nie/ref/??tweenmax.js"></script>
+<script>
+  (function() {
+    function kv (index) {
+      let _key = `.twee${index+1}`
+      let teww=TweenMax.fromTo(_key, 2,{ opacity: 0, x: 800, y: 120, z: 200, rotationZ: -320, scaleX: 1.2, scaleY: 1.2 },
+        { opacity: 1, x: 0, y: 0, z: 0, rotationZ: 0, scaleX: 1, scaleY: 1 ,ease: Power2.easeOut,onComplete() {
+          }})
+    }
+    const throttle = function (func, wait, mustRun) {
+      let timeout
+      let startTime = new Date()
+      return function () {
+        let context = this
+        let args = arguments
+        let curTime = new Date()
+        clearTimeout(timeout)
+        // 如果达到了规定的触发时间间隔，触发 handler
+        if (curTime - startTime >= mustRun) {
+          func.apply(context, args)
+          startTime = curTime
+          // 没达到触发间隔，重新设定定时器
+        } else {
+          timeout = setTimeout(func, wait)
+        }
+      }
+    }
+
+    let elements = Array.prototype.slice.call($('.twee'));
+    let windowHeight = $(window).height();
+    let offsetArr = [];
+    let scrollTop = 0;
+    let reqId = null;
+    let lastFinish = false;
+    elements.forEach((item,index)=> {
+      let _item = $(item);
+      let offset = 0;
+      let diff = Math.ceil(_item.offset().top-windowHeight*3/4);
+      diff > 0 ? (offset=diff) : (offset=0);
+      offsetArr.push(offset);
+    })
+    $(window).on('scroll', throttle(function () {
+      scrollTop = $(this).scrollTop()
+      console.log(scrollTop)
+    }, 400, 500))
+    step();
+    function step() {
+      if (lastFinish) return false;
+      for(let i =0; i<elements.length; i++){
+        /*console.log(offsetArr)
+        console.log(scrollTop, offsetArr[i]-10)*/
+        if(scrollTop>=offsetArr[i]-10){
+          doAnimate(i)
+        }
+
+      }
+
+      reqId = requestAnimationFrame(step)
+    }
+    function doAnimate(index) {
+      console.log(index)
+      if($(elements[index]).hasClass('animated')) return false;
+      $(elements[index]).addClass('animated');
+      if(index<offsetArr.length-1) {
+        kv(index)
+      }else if(index>=offsetArr.length-1) {
+        setTimeout(function() {
+          cancelAnimationFrame(reqId);
+          reqId = null;
+          lastFinish = true;
+        },2500)
+      }
+
+
+    }
+  })()
+</script>
+</body>
+</html>
